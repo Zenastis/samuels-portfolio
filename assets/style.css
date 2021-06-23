@@ -14,6 +14,18 @@
     align-items: center;
 }
 
+.portfolio-img {
+    height: 250px;
+    width: 300px;
+}
+.project-2{
+    display: flex;
+
+}
+#project2{
+    margin-top: 80px;
+    margin-left: 900px;
+}
 
 .page-buttons{
     list-style-type: none;
@@ -22,12 +34,21 @@
     justify-content: flex-end;
     color: black;
 }
+.pass-img{
+    margin-top: 350px;
+    height: 250px;
+    width: 300px;
+}
 
 .nav{
     border-bottom: white solid 2px;
-
+    color:black;
 }
 
+.mid-right{
+    margin-top: 350px;
+    margin-left: -150px;
+}
 
 li {
 border: 1px white;
@@ -38,33 +59,35 @@ padding: 1em;
 .about-me {
     background-color: grey;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
-    width: 200px;
+     width: 40vw; 
     height: 200px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    margin-top: 2rem;
 }
 
 .work {
+    flex-wrap: wrap;
+    margin-top: 2rem;
     background-color: teal;
+    opacity: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 200px;
+    justify-content: space-between;
+    /* width: 200px; */
     height: 200px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
 }
 
 .contact-me {
     background-color: pink;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 200px;
+    justify-content: space-between;
     height: 200px;
-    margin-left: 400px;
 }
 
 .about-you {
@@ -114,4 +137,9 @@ padding: 1em;
 
 body {
     background-image: url("https://content.fortune.com/wp-content/uploads/2019/07/GettyImages-1020752970-e1563589766704.jpg");
+}
+
+#git {
+    color:black;
+    font-size: 25px;
 }
